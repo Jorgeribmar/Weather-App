@@ -1,7 +1,7 @@
 body {
   background-color: none;
   font-family: "Amatic SC", cursive;
-  background-image: url(https://source.unsplash.com/1600x900/?weather);
+  background-image: url(./back.jpg);
   background-size: auto;
 }
 input {
