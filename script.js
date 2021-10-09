@@ -51,7 +51,7 @@ const RootComponent = {
                 const lat = position.coords.latitude;
                 const lng = position.coords.longitude;
 
-                const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lng}&appid=7524b547972909bbc321d4e184e23f48&units=metric&lang=fr`;
+                const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lng}&appid=c23ea174dddff27c2a35fc309bafcc38&units=metric&lang=fr`;
 
                 const response = await fetch(url);
 
