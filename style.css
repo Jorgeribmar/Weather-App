@@ -1,0 +1,91 @@
+body {
+  background-color: none;
+  font-family: "Amatic SC", cursive;
+  background-image: url(./back.jpg);
+  background-size: auto;
+}
+input {
+  font-family: "Amatic SC", cursive;
+  border-radius: 3px;
+  font-size: 2rem;
+  background-color: #c1c4d8;
+}
+label {
+  font-size: 2rem;
+}
+button {
+  font-family: "Amatic SC", cursive;
+  border-radius: 3px;
+  font-size: 2rem;
+  background-color: #c1c4d8;
+  margin-bottom: 1%;
+  color: #fefeff;
+}
+.txt {
+  margin: 2px;
+}
+
+.weatherCard-container {
+  margin: 5vh 2.5vw;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scrollbar-color: blue;
+}
+
+.weatherCard {
+  margin: 10px;
+  background-color: #c1c4d8;
+  box-shadow: 4px 5px 8px #444444;
+  padding: 10px;
+  color: #2b2bc0;
+  width: 11vw;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 3px;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 4rem;
+  color: #fefeff;
+  margin: 1%;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 5px 5px 5px #444444;
+  color: #fefeff;
+  font-size: 2rem;
+  border: #fefeff solid 2px;
+  margin: 0% 40%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #fefeff;
+}
+::-webkit-scrollbar {
+  height: 20px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border: 3px solid #fefeff;
+  background: #7f7fd1;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4545ca;
+}
+#choix {
+  color: #fefeff;
+  margin-bottom: 5px;
+}
