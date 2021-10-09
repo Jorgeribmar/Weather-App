@@ -38,7 +38,7 @@ const RootComponent = {
 
     async mounted() {
         const response = await fetch(
-            "https://api.openweathermap.org/data/2.5/forecast?q=Nice&appid=c23ea174dddff27c2a35fc309bafcc38&units=metric&lang=fr",
+            "https://api.openweathermap.org/data/2.5/forecast?q=Monaco&appid=c23ea174dddff27c2a35fc309bafcc38&units=metric&lang=fr",
         );
         const data = await response.json();
         this.meteoArray = data.list;
